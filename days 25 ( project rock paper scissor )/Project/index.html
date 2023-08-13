@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" href="assets/vendor/Hover-master/css/hover-min.css"> -->
+    <title>Project</title>
+</head>
+
+<body>
+
+    <div class="start">
+        <button>Start</button>
+    </div>
+
+    <div class="game-board d-none">
+        <div class="image-container">
+            <div class="image">
+                <img class="img" src="assets/images/paper.png" alt="paper">
+            </div>
+
+            <div class="image">
+                <img class="img" src="assets/images/rock.png" alt="rock">
+            </div>
+
+            <div class="image">
+                <img class="img" src="assets/images/scissors.png" alt="scissors">
+            </div>
+        </div>
+
+        <h2 id="winner" class="hvr-underline-from-center">Winner : <span>---</span></h2>
+
+
+        <div class="scoreboard">
+            <h3>Scores:</h3>
+
+            <div class="scores">
+                <div class="player-score">
+                    <h4>Player Score</h4>
+                    <div id="player-score-number">0</div>
+                </div>
+
+                <div class="drow">
+                    <h4>Drow Score</h4>
+                    <div id="drow-score-number">0</div>
+                </div>
+
+                <div class="computer-score">
+                    <h4>CPU Score</h4>
+                    <div id="computer-score-number">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

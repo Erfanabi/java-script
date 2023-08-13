@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <main>
+
+        <div class="cord">
+            <div class="cord-body">
+
+                <div class="song-header">
+                    <div class="icon">
+                        <i class="bi bi-arrow-left-short"></i>
+                    </div>
+
+                    <div>PLAYING NOW</div>
+
+                    <div class="icon">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </div>
+
+                <div class="song-cover">
+                    <!-- <div class="container-img"> -->
+                    <img src="image/Armin-Zareei-Begoo-Binam.jpg" alt="">
+                    <!-- </div> -->
+                </div>
+
+
+                <div class="song-details">
+                    <p class="name">It's Only Worth</p>
+                    <p class="artist">Evan Band</p>
+                </div>
+
+                <div class="song-timer">
+                    <div>
+                        <span class="current-time-min">00</span>:<span class="current-time-second">00</span>
+                    </div>
+
+                    <div>
+                        <span class="max-time-min">00</span>:<span class="max-time-second">00</span>
+                    </div>
+                </div>
+
+                <div class="progres-area">
+                    <div class="progres-bar">
+                        <audio id="main-audio" src="music/Bego Binam  Armin Zarei.mp3"></audio>
+                    </div>
+
+                    <!-- <div class="progress-btn"></div> -->
+                </div>
+
+                <div class="music-controll">
+                    <!-- <i class="bi bi-music-note-list"></i> -->
+                    <button>
+                        <i class="bi bi-stop-fill" id="stop"></i>
+                    </button>
+
+                    <button>
+                        <i class="bi bi-skip-backward-fill" id="back"></i>
+                    </button>
+
+                    <button class="btn-play animate__animated">
+                        <i class="bi bi-pause-fill d-none" id="pause"></i>
+                        <i class="bi bi-play-fill" id="play"></i>
+                    </button>
+
+                    <button>
+                        <i class="bi bi-skip-forward-fill" id="forward"></i>
+                    </button>
+                    <!-- <i class="bi bi-shuffle"></i> -->
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>

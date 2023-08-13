@@ -1,0 +1,14 @@
+input:nth-child(3){
+    width: 100px;
+    display: inline;
+}
+
+.para{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
